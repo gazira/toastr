@@ -59,5 +59,11 @@
   },
   "scripts": {
     "test": "gulp test"
+  },
+  "spm":{
+    "main": "toastr.js",
+    "dependencies": {
+      "jquery": "1.11.1"
+    }
   }
 }
